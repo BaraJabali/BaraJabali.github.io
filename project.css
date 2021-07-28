@@ -1,0 +1,108 @@
+*{
+    background-color: lightgray;
+}
+img{
+    width: 400px;
+    height:fit-content;
+}
+ul{
+    list-style: none;
+}
+.headerList{
+    float: right;
+    margin: 10px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%
+
+}
+#list{
+    align-content: center;    
+    position:fixed;
+    right:10px;
+    top:0px;
+    font-size: 20px;
+}
+#start{
+    position: relative;
+    width:100%;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Tangerine', serif;
+    font-size: 35px;
+     text-shadow: 4px 4px 4px #aaa;
+     padding:15px;
+}
+.padd{
+    margin:10px;
+    padding: 5px;
+}
+button{
+    background-color: lightslategray;
+}
+input{
+    background-color: white;
+    
+
+}
+
+#desc{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    left: 25%;
+}
+.pPhoto{
+padding-right: 20px;
+width: 60%;
+display: flex;
+    flex-wrap: wrap;
+}
+.icons{
+    width: 40px;
+    height: 40px;
+}
+.upText{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.downText{
+    font-size: 15px;
+
+}
+iframe{
+    margin-left: 30%;
+}
+
+.card{
+width: 300px;
+border:1px solid black;
+margin: 20px;
+}
+
+.topCard{
+    background-color: gray;
+    text-align: center;
+}
+.CardList{
+    list-style: none;
+}
+li{
+    text-align: center;
+}
+.theCards{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    padding: 30px;
+   padding-left: 30px;
+}
+footer{
+    width: 80%;
+    align-self: center;
+    background-color: gray;
+}
