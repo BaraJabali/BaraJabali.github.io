@@ -1,5 +1,5 @@
 *{
-    background-color: lightgray;
+    background: lightgray;
 }
 img{
     width: 400px;
@@ -40,7 +40,7 @@ header{
     padding: 5px;
 }
 button{
-    background-color: lightslategray;
+    background: lightslategray;
 }
 input{
     background-color: white;
@@ -96,13 +96,14 @@ li{
 }
 .theCards{
     display: flex;
-    flex-direction: row;
-    align-content: space-around;
+    justify-content: space-evenly;
     position: relative;
-   left: 10%;
+    
 }
 footer{
-    width: 80%;
+    width: 60%;
     align-self: center;
-    background-color: gray;
+    background:gray;
+    position: relative;
+    left: 20%;
 }
